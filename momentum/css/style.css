@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input.no-border {
+    border: none; 
+    background: none; 
+    outline: none;
+    text-align: left;
+    width: 200px;
+    color: white;
+}
+
+input.underline {
+    border: none; 
+    background: none; 
+    outline: none;
+    border-bottom: 3px solid white; 
+    text-align: center;
+    width: 400px;
+    font-size: 200%;
+    color: white;
+}
+
+input.underline::placeholder {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.todo-element button{
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    padding: 0; /* Remove padding */
+    color: inherit; /* Inherit text color from parent */
+    font-size: 12px; /* Inherit font size from parent */
+    padding-left: 5px;
+}
+
+#center-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo-container {
+    background-color: rgb(34, 35, 36);
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 250px;
+    height: auto;
+    opacity: 0.85;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#weather-container {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    text-align: right;
+    padding: 10px;
+}
+
+#clock {
+    font-size: 900%;
+    letter-spacing: -5px;
+}
+
+#quote {
+    display:grid
+}
